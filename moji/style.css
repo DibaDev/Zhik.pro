@@ -2,17 +2,25 @@
 	outline: 1px dashed red;
 }
 
-div.container{
-	min-height: 1761px;
-	background-image   : url('images/backpic.jpg');
-	background-repeat  : no-repeat;
-	background-position: top center;
-}
-/*/////////////Header//////////////*/
-header.header .hline{
-	min-height: 7px;
+div.contain{
+	background-image   : url('images/body.gif');
+	background-repeat  : repeat-x repeat-y;
+	background-position: center;
 }
 
+div.contain div.hline{
+	min-height: 7px;
+	left: 0;
+	right: 0;
+	background-image: url('images/header.gif');
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+div.container{
+	min-height: 1550px;
+}
+/*/////////////Header//////////////*/
 header.header .head{
 	min-height: 70px;
 	margin-top: 15px;
@@ -96,83 +104,87 @@ section.middle2 .third{
 	margin-left: 634px;
 }
 /*/////////////Footer//////////////*/
-footer.footer{
-	min-height: 185px;
-	margin-top: 45px;
+footer.contain{
+	min-height: 190px;
+	background-image: url('images/footer.gif');
+	background-position: center;
+	background-repeat: repeat-x repeat-y;
+	left: 0;
+	right: 0;
 	padding-top: 5px;
 }
+footer.contain .footer{
+	padding-top: 35px;
+}
 
-footer.footer .first{
-	min-height: 110px;
+footer.contain .footer .first{
+	min-height: 75px;
 	width: 317px;
 	float: left;
 }
 
-footer.footer .first .copyright{
+footer.contain .footer .first .copyright{
 	min-height: 25px;
-	margin-top: 35px;
 }
 
-footer.footer .first .menu{
+footer.contain .footer .first .menu{
 	min-height: 25px;
 	margin-top: 15px;
 }
 
-footer.footer .second{
-	min-height: 145px;
+footer.contain .footer .second{
+	min-height: 115px;
 	width: 317px;
 	float: left;
 }
 
-footer.footer .second .header{
-	min-height: 25px;
-	margin-top: 35px; 
+footer.contain .footer .second .header{
+	min-height: 25px; 
 }
 
-footer.footer .second .text{
+footer.contain .footer .second .text{
 	min-height: 65px;
 	margin-top: 15px;
 }
 
-footer.footer .third{
+footer.contain .footer .third{
 	min-height: 130px;
 	margin-left: 634px;
 }
 
-footer.footer .third .header{
+footer.contain .footer .third .header{
 	min-height: 25px;
-	margin-top: 35px;
 }
 
-footer.footer .third .schub1{
+footer.contain .footer .third .schub1{
 	min-height: 35px;
 	margin-top: 17px;
 }
 
-footer.footer .third .schub1 .fa{
+footer.contain .footer .third .schub1 .fa{
 	min-height: 35px;
 	width: 110px;
 	float: left;
 }
 
-footer.footer .third .schub1 .tw{
+footer.contain .footer .third .schub1 .tw{
 	min-height: 35px;
 	margin-left: 160px;
 	margin-right: 50px;
 }
 
-footer.footer .third .schub2{
+footer.contain .footer .third .schub2{
 	min-height: 35px;
 	margin-top: 10px;
 }
 
-footer.footer .third .schub2 .gp{
+footer.contain .footer .third .schub2 .gp{
 	min-height: 35px;
 	width: 110px;
 	float: left;
 }
 
-footer.footer .third .schub2 .rs{
+footer.contain .footer .third .schub2 .rs{
 	min-height: 35px;
 	margin-left: 160px;
 	margin-right: 50px;
