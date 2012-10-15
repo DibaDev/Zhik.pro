@@ -94,3 +94,20 @@ body{
 	margin-top:310px;
 	
 }
+.gallery-container .gallery .firstline {
+	margin: 0 auto;
+	min-height: 290px;
+	width: inherit;	
+}
+.gallery-container .gallery .firstline .first {
+	float: left;
+	width: 312px;
+	min-height: 190px;
+	background-color:#CCC;
+}
+.gallery-container .gallery .firstline .second {
+
+}
+.gallery-container .gallery .firstline .third {
+
+}
