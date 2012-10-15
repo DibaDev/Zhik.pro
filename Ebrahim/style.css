@@ -1,0 +1,75 @@
+
+/*----- Contact Us ------- */
+*, div{
+	outline:1px solid red;	
+}
+.container{
+	background-image:url(images/Contacts-Us.jpg);	
+	min-height:1100px;
+	padding:1px;
+	direction:rtl;
+}
+.container .contact{
+	width:950px;
+	min-height:600px;
+	margin:0 auto;	
+	margin-top:260px;
+}
+.container .contact .form{
+	float:right;
+	width:315px;
+	min-height:inherit;
+}
+.container .contact .form h2, .info h2{
+	min-height:30px;	
+	text-align:right;
+	font-size:26px;	
+	margin-bottom:30px;
+}
+.container .contact .form input{
+	height:20px;
+	width:290px;
+	margin-left:8px;
+	margin-bottom:12px;
+	border-radius:10px;	
+}
+.container .contact .form textarea{
+	margin-left:8px;
+	margin-top:0px;
+	width:290px;
+	height:260px;
+	border-radius:10px;
+	margin-bottom:19px;
+}
+.container .contact .form .button{
+	float:right;
+	margin-right:8px;
+	margin-left:0px;
+	width:60px;
+	height:35px;
+	background-color:#2e2a21;
+	border:0 none;
+	color:#FFF;
+	transition:all 350ms;
+	-webkit-transition:all 350ms;
+	-moz-transition:all 350ms;
+	-ms-transition:all 350ms;
+	-o-transition:all 350ms;
+	border-radius:0;
+	font-weight:bolder;
+	
+}
+.container .contact .form .button:hover{
+	background-color:#9FB32B;
+}
+.container .contact .info{
+	margin-right:320px;
+	min-height:inherit;
+	padding:1px;
+}
+.container .contact .info .map{
+	min-height:300px;	
+}
+.container .contact .info .contactinfo{
+	min-height:210px;	
+}
