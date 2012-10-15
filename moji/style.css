@@ -30,13 +30,13 @@ header.header .head{
 header.header .head .logo{
 	min-height: 60px;
 	width: 240px;
-	float: left;
+	float: right;
 	margin-top: 3px;
 }
 
 header.header .head .search{
 	min-height: 40px;
-	margin-left: 550px;
+	margin-right: 550px;
 	margin-top: 20px;
 }
 
@@ -113,6 +113,7 @@ footer.contain{
 	right: 0;
 	padding-top: 5px;
 }
+
 footer.contain .footer{
 	padding-top: 35px;
 }
@@ -120,7 +121,7 @@ footer.contain .footer{
 footer.contain .footer .first{
 	min-height: 75px;
 	width: 317px;
-	float: left;
+	float: right;
 }
 
 footer.contain .footer .first .copyright{
@@ -135,7 +136,7 @@ footer.contain .footer .first .menu{
 footer.contain .footer .second{
 	min-height: 115px;
 	width: 317px;
-	float: left;
+	float: right;
 }
 
 footer.contain .footer .second .header{
@@ -149,7 +150,7 @@ footer.contain .footer .second .text{
 
 footer.contain .footer .third{
 	min-height: 130px;
-	margin-left: 634px;
+	margin-right: 634px;
 }
 
 footer.contain .footer .third .header{
