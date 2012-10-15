@@ -78,6 +78,19 @@ body{
 }
 /* -------- Main Gallery ------- */
 
-gallery-container {
+.gallery-container {
 	background-image:url(images/gallery.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	margin:0 auto;
+	min-height:1450px;
+	width:950px;
+	padding:1px;
+}
+.gallery-container .gallery {
+	margin:0 auto;
+	min-height:900px;
+	width:950px;
+	margin-top:310px;
+	
 }
