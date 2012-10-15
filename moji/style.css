@@ -1,0 +1,179 @@
+*,header,div,footer{
+	outline: 1px dashed red;
+}
+
+div.container{
+	min-height: 1761px;
+	background-image   : url('images/backpic.jpg');
+	background-repeat  : no-repeat;
+	background-position: top center;
+}
+/*/////////////Header//////////////*/
+header.header .hline{
+	min-height: 7px;
+}
+
+header.header .head{
+	min-height: 70px;
+	margin-top: 15px;
+	padding-top: 1px;
+}
+
+header.header .head .logo{
+	min-height: 60px;
+	width: 240px;
+	float: left;
+	margin-top: 3px;
+}
+
+header.header .head .search{
+	min-height: 40px;
+	margin-left: 550px;
+	margin-top: 20px;
+}
+
+header.header .menu{
+	min-height: 70px;
+	margin-top: 30px;
+}
+/*/////////////Banner//////////////*/
+section.banner{
+	min-height: 570px;
+	margin-top: 25px;
+}
+
+section.banner .slideshow{
+	min-height: 500px;
+}
+
+section.banner .text{
+	min-height: 50px;
+	margin-top: 10px;
+}
+/*/////////////Middle 1//////////////*/
+section.middle1{
+	min-height: 340px;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+section.middle1 .first{
+	width: 317px;
+	min-height: 320px;
+	float: left;
+}
+
+section.middle1 .second{
+	width: 317px;
+	min-height: 320px;
+	float: left;
+}
+
+section.middle1 .third{
+	margin-left: 634px;
+	min-height: 320px;
+}
+/*/////////////Middle 2//////////////*/
+section.middle2{
+	min-height: 330px;
+	margin-top: 20px;
+}
+
+section.middle2 .first{
+	min-height: 330px;
+	width: 317px;
+	float: left;
+}
+
+section.middle2 .second{
+	min-height: 330px;
+	width: 317px;
+	float: left;
+}
+
+section.middle2 .third{
+	min-height: 330px;
+	margin-left: 634px;
+}
+/*/////////////Footer//////////////*/
+footer.footer{
+	min-height: 185px;
+	margin-top: 45px;
+	padding-top: 5px;
+}
+
+footer.footer .first{
+	min-height: 110px;
+	width: 317px;
+	float: left;
+}
+
+footer.footer .first .copyright{
+	min-height: 25px;
+	margin-top: 35px;
+}
+
+footer.footer .first .menu{
+	min-height: 25px;
+	margin-top: 15px;
+}
+
+footer.footer .second{
+	min-height: 145px;
+	width: 317px;
+	float: left;
+}
+
+footer.footer .second .header{
+	min-height: 25px;
+	margin-top: 35px; 
+}
+
+footer.footer .second .text{
+	min-height: 65px;
+	margin-top: 15px;
+}
+
+footer.footer .third{
+	min-height: 130px;
+	margin-left: 634px;
+}
+
+footer.footer .third .header{
+	min-height: 25px;
+	margin-top: 35px;
+}
+
+footer.footer .third .schub1{
+	min-height: 35px;
+	margin-top: 17px;
+}
+
+footer.footer .third .schub1 .fa{
+	min-height: 35px;
+	width: 110px;
+	float: left;
+}
+
+footer.footer .third .schub1 .tw{
+	min-height: 35px;
+	margin-left: 160px;
+	margin-right: 50px;
+}
+
+footer.footer .third .schub2{
+	min-height: 35px;
+	margin-top: 10px;
+}
+
+footer.footer .third .schub2 .gp{
+	min-height: 35px;
+	width: 110px;
+	float: left;
+}
+
+footer.footer .third .schub2 .rs{
+	min-height: 35px;
+	margin-left: 160px;
+	margin-right: 50px;
+}
