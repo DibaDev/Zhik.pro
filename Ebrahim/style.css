@@ -113,8 +113,9 @@ body{
 	min-height: 290px;
 
 }
-#test{
-
+#testpic{
+	width: 312px;
+	height: 190px;
 }
 .gallery-container .gallery .firstline .second {
 	float: 	left;
@@ -138,20 +139,20 @@ body{
 	float: left;
 	width: 312px;
 	min-height: 290px;
-	background-color:#CCC;
+	
 }
 .gallery-container .gallery .secondline .second {
 	float: 	left;
 	width: 312px;
 	margin-left: 7px;
 	min-height: 290px;
-	background-color:#1e2;
+	
 }
 .gallery-container .gallery .secondline .third {
 	/*width: 312px;*/
 	margin-left: 638px;
 	min-height: 290px;
-	background-color:#c67;
+	
 }
 .gallery-container .gallery .thirdline {
 	margin: 0 auto;
@@ -162,18 +163,18 @@ body{
 	float: left;
 	width: 312px;
 	min-height: 290px;
-	background-color:#CCC;
+	
 }
 .gallery-container .gallery .thirdline .second {
 	float: 	left;
 	width: 312px;
 	margin-left: 7px;
 	min-height: 290px;
-	background-color:#1e2;
+	
 }
 .gallery-container .gallery .thirdline .third {
 	/*width: 312px;*/
 	margin-left: 638px;
 	min-height: 290px;
-	background-color:#c67;
+	
 }

@@ -15,21 +15,39 @@
         <div class="gallery">
 
         	<div class="firstline">
-        		<div class="first"></div>
-        		<div class="second"></div>
-        		<div class="third"></div>
+        		<div class="first">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">      
+                </div>
+        		<div class="second">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">      
+                </div>
+        		<div class="third">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">      
+                </div>
         	</div>
 
             <div class="secondline">
-                <div class="first"></div>
-                <div class="second"></div>
-                <div class="third"></div>
+                <div class="first">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">
+                </div>
+                <div class="second">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">
+                </div>
+                <div class="third">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">
+                </div>
             </div>
 
             <div class="thirdline">
-                <div class="first"></div>
-                <div class="second"></div>
-                <div class="third"></div>
+                <div class="first">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">
+                </div>
+                <div class="second">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">
+                </div>
+                <div class="third">
+                    <img id="testpic" src="images/gallerypic.jpg" alt="">
+                </div>
             </div>
 
         </div>
