@@ -89,9 +89,10 @@ body{
 }
 .gallery-container .gallery {
 	margin:0 auto;
-	min-height:900px;
+	min-height:925px;
 	width:950px;
 	margin-top:310px;
+	background-color: #000;
 	
 }
 .gallery-container .gallery .firstline {
@@ -106,8 +107,63 @@ body{
 	background-color:#CCC;
 }
 .gallery-container .gallery .firstline .second {
-
+	float: 	left;
+	width: 312px;
+	margin-left: 8px;
+	min-height: 190px;
+	background-color:#1e2;
 }
 .gallery-container .gallery .firstline .third {
-
+	/*width: 312px;*/
+	margin-left: 638px;
+	min-height: 190px;
+	background-color:#c67;
+}
+.gallery-container .gallery .secondline {
+	margin: 0 auto;
+	min-height: 290px;
+	width: inherit;	
+}
+.gallery-container .gallery .secondline .first {
+	float: left;
+	width: 312px;
+	min-height: 190px;
+	background-color:#CCC;
+}
+.gallery-container .gallery .secondline .second {
+	float: 	left;
+	width: 312px;
+	margin-left: 8px;
+	min-height: 190px;
+	background-color:#1e2;
+}
+.gallery-container .gallery .secondline .third {
+	/*width: 312px;*/
+	margin-left: 638px;
+	min-height: 190px;
+	background-color:#c67;
+}
+.gallery-container .gallery .thirdline {
+	margin: 0 auto;
+	min-height: 290px;
+	width: inherit;	
+}
+.gallery-container .gallery .thirdline .first {
+	float: left;
+	width: 312px;
+	min-height: 190px;
+	background-color:#CCC;
+}
+.gallery-container .gallery .thirdline .second {
+	float: 	left;
+	width: 312px;
+	margin-left: 8px;
+	min-height: 190px;
+	background-color:#1e2;
+}
+.gallery-container .gallery .thirdline .third {
+	/*width: 312px;*/
+	margin-left: 638px;
+	min-height: 190px;
+	background-color:#c67;
 }
