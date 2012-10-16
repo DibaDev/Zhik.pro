@@ -87,12 +87,19 @@ body{
 	width:950px;
 	padding:1px;
 }
+.gallery-container h2{
+	margin-top:265px;
+	font-weight: bolder;
+	font-size: 25px;
+	text-align: right;
+
+}
 .gallery-container .gallery {
 	margin:0 auto;
 	min-height:925px;
 	width:950px;
-	margin-top:310px;
-	background-color: #000;
+	margin-top:20px;
+	background-color: yellow;
 	
 }
 .gallery-container .gallery .firstline {
